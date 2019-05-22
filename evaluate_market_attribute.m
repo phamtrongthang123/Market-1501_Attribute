@@ -1,6 +1,6 @@
 %clear;
 clear;
-pp = '/home/yutian/re-id/dataset/market1501/bounding_box_test/*.jpg';
+pp = '/content/Market/bounding_box_test/*.jpg';
 %% change ID-level attribute to instance-level attribute
 load('market_attribute.mat');
 file = dir(pp);
